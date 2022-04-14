@@ -1,4 +1,4 @@
-package guru.springframework.service;
+package guru.springframework.services;
 
 import guru.springframework.domain.Recipe;
 import guru.springframework.repositories.RecipeRepository;
@@ -29,6 +29,7 @@ public class RecipeServiceImpl implements RecipeService {
     public Recipe findById(Long l) {
         return null;
     }
+
 
 
 }
